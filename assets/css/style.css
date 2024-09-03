@@ -67,7 +67,7 @@ header{
 } */
 
 .logo img{
-    max-width: 400px;
+   width: 300px;
 }
 
 span{
@@ -828,5 +828,33 @@ header.sticky{
         display: flex;
         flex-direction: column;
         padding: 0 35px;
+    }
+  }
+
+
+  @media (max-width: 680px){
+
+    .logo img{
+        width: 150px;
+     }
+
+     .home-text{
+        padding: 0.5rem;
+     }
+
+    .home-text h1{
+        font-size: 1.5rem;
+    }
+
+    .home-text h3{
+        font-size: 1rem;
+    }
+
+    .home-text p{
+        font-size: .8rem;
+    }
+
+    section{
+        padding: 110px 1% 60px;
     }
   }
